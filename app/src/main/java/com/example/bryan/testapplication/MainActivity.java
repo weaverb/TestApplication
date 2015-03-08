@@ -23,6 +23,8 @@ public class MainActivity extends ActionBarActivity {
         displayText = (TextView)findViewById(R.id.textView);
 
         mainButton.setOnClickListener(new View.OnClickListener() {
+            //making a change.
+
             @Override
             public void onClick(View v) {
                 displayText.setText("Button was clicked!");
